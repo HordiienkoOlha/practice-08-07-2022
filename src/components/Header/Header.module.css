@@ -1,0 +1,15 @@
+.list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.link{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+}
+.active-link{
+    composes:link;
+    color: tomato;
+}
