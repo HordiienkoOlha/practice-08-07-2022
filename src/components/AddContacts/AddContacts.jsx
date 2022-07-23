@@ -8,7 +8,7 @@ import { useDispatch } from "react-redux";
 export default function AddContacts() {
     const [name, setName] = useState('');
     const [age, setAge] = useState('');
-    const dispatch = useDispatch;
+    const dispatch = useDispatch();
 
     const onChange = (event) => {
         const { name, value } = event.target;
